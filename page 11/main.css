@@ -2,10 +2,6 @@
     box-sizing: border-box;
     margin: 0;
 }
-.profile{
-    display: flex;
-    justify-content: space-between;
-}
 .img{
     margin: 20px;
     margin-left:70px !important;
@@ -13,6 +9,9 @@
 }
 .img img{
     width: 100%;
+}
+.shows{
+    font-family: 'Montserrat' !important;
 }
 .new-space{
     display: flex;
@@ -26,17 +25,86 @@
 .new-img img{
     width: 100%;
 }
-.me{
-    margin-top:22px;
+.hello{
+    margin-left: 88px !important;
+    font-family:Playfair Display !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    margin-top: 30px;
 }
-.list{
-    margin-bottom: 5px;
-    margin-right: 30px;
+.welcome{
+    margin-left: 95px !important;
+    font-family: 'Montserrat' !important;
+    font-size: 12px !important;
+    font-weight: lighter;
 }
-.list ul{
-    list-style-type: none;
+.hetic{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    max-width: 70%;
+    justify-items: center;
+    align-content: center;
+    margin: auto;
+    flex-grow: 1;
+    margin-top: 30px;
 }
-.list li{
-    color: white;
+.curiosity{
+    border: 1px solid #9a9a9a80;
+}
+.curiosity:hover{
+   box-shadow:  0px 3px 6px #00000029;
+   margin-top: -15px;
+   cursor: pointer;
+   margin-left: 10px;
+}
+.prob img{
+    width: 100%;
+}
+.aware{
+    border-bottom: 2px solid #9a9a9a7d;
+}
+.anxiety{
     font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-family:'Montserrat' !important ;
+}
+.episode{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.dash img{
+    width: 13px;
+}
+.five{
+    margin-left: 10px;
+    font-size: 11px;
+    font-weight: lighter;
+    font-family: 'Montserrat' !important ;
+}
+@media screen and (max-width: 700px ) {
+    .img{
+        margin-left: 0 !important;
+    }
+    .hetic{
+        grid-template-columns: 1fr;
+    }
+    .curiosity:hover{
+        box-shadow: none;
+        margin-top: 0;
+        cursor: pointer;
+        margin-left: 0;
+     }
+     .hello{
+         margin-left: 0 !important;
+         text-align: center;
+     }
+     .welcome{
+         margin-left: 0 !important;
+         text-align: center;
+     }
 }

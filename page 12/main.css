@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.img{
+    margin: 20px;
+    margin-left:70px !important;
+    width: 80px;
+}
+.img img{
+    width: 100%;
+}
+.shows{
+    font-family: 'Montserrat' !important;
+}
+.new-space{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+}
+.new-img{
+    width: 40px;
+}
+.new-img img{
+    width: 100%;
+}
+/* .icons{
+    display:flex;
+}
+.first-division{
+    width: 200px;
+}
+.second-division{
+    flex-grow: 1;
+} */
+.divide{
+    height: 100vh !important;
+    /* align-items: center; */
+}
+.first-division{
+    flex: 0 !important;
+    width: 10%!important;
+    padding: 0 !important;
+}
+.second-division{
+    flex-grow: 1 !important;
+    max-width: 100% !important;
+}
+.icon{
+    margin: auto;
+    margin-top: 60px !important;
+}
+.icon img{
+    width:15px;
+}
+.special{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stream{
+    margin-left: 20px;
+}
+.special span{
+    height: 24px;
+    width: 1px;
+    border:1px solid blue
+}
+.reduce{
+    font-size: 12px;
+    font-family: 'Montserrat' !important;
+}
+.first-spec{
+    display: flex;
+    margin-top: 30px;
+}
+.pec{
+    width:100px;
+}
+.pec img{
+    width: 100%;
+}
+.first-spec h5{
+    margin-top: 40px !important;
+    margin-left: 20px !important;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Playfair Display';
+}
+.importance{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.port{
+    /* margin-top: 20px; */
+}
+.importance:hover{
+    cursor: pointer;
+}
+.importance:hover .embed{
+    display: grid !important;
+}
+.october{
+    display:flex;
+    width:80%;
+}
+.details{
+    display: grid;
+    flex-grow: 1;
+    margin-left: 20px;
+    border-bottom: 10px solid #FF7D69;
+}
+.details p{
+    font-size:12px;
+    font-family:'Montserrat ';
+    font-weight: lighter;
+}
+.eps{
+    font-weight: bold !important;
+    margin-top: 20px;
+}
+.cet{
+    font-size: 15px !important;
+    font-weight: bold !important;
+}
+.edit{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.triangle{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: end;
+    justify-items: center;
+}
+.angle{
+    margin-left: 120px;
+}
+.pen{
+    margin-top: 4px;
+}
+.pen img{
+    width: 10px;
+}
+.triangle p{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.embed{
+    display:none !important;
+    width: 150px;
+    grid-template-columns: 1fr;
+    margin-left: 20px;
+}
+.embed button{
+    /* padding: 5px; */
+    border-radius: 82px;
+    outline: none !important;
+    border: 1px solid #707070 !important;
+    width: 164px;
+    height: 50px;
+}
+.embed button:hover{
+    cursor: pointer;
+}
+.last{
+    margin-top: 20px;
+}
+.two{
+    display: grid;
+    justify-items: center;
+    align-content: flex-end;
+    grid-template-columns: 1fr 1fr;
+}
+.arrow img{
+    width: 6px;
+    margin-top: 2px;
+}
+.para{
+    width: 26px;
+}
+.para p{
+    font-size: 10px;
+}
+@media screen and (max-width: 850px ) {
+    .img{
+        margin-left: 0 !important;
+    }
+    .october{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 0;
+    }
+    .october:hover{
+        opacity:0
+    }
+    .bow img{
+        width: 100%;
+    }
+}
+    /* I was trying to make the .october content dissappear completely and make the button appear and shift to the left but i was not getting it on media query
+    .embed:hover .october{
+        opacity:0;
+    }
+    .embed button:hover .october{
+        opacity: 0;
+    }
+    .embed{
+        margin-left: 0px;
+    } */
+/* Help me make it nice on mobile, the hover is not working and it looks weird
+@media screen and (max-width: 300px ){
+  .importance{
+      display: grid;
+  }
+    embed{
+        display:grid !important;
+    }
+} */
+/* also check the div with a class of two for me... had a little issue there */

@@ -1,0 +1,25 @@
+.profile{
+    background-color: #24279D !important;
+}
+.first-division{
+    background-color: #FFFFFF !important;
+    
+}
+.second-division{
+    background-color: #F3F3F3 !important;
+}
+.reduce{
+    color: #24279dd9 !important;
+}
+.october{
+    background-color: #FFFFFF;
+}
+.cet{
+    color: #4447AB;
+}
+.embed button{
+    background-color: transparent;
+}
+.embed button:hover{
+    background-color: #FF7D69;
+}
